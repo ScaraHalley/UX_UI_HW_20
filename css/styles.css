@@ -1,0 +1,78 @@
+/*Variables*/
+:root {
+  --primary-color: #eddecc;
+  --secondary-color: #215a5e;
+  --primary-color-active: #d3c2ad;
+  --secondary-color-active: #12415b;
+  --primary-color-hover: #e4d0b885;
+  --secondary-color-hover: #0a3247;
+  --white: rgb(245, 245, 245);
+  --black: rgb(35, 35, 35);
+}
+/*Color Blocks*/
+.top-arch {
+  padding: 60px 0 20px 0;
+
+  border-radius: 500px 500px 0 0;
+  background-color: var(--primary-color);
+  min-height: 500px;
+}
+
+.bottom-arch {
+  padding: 20px 0 60px 0;
+
+  border-radius: 0 0 500px 500px;
+  background-color: var(--primary-color);
+  min-height: 500px;
+}
+/*Text Styling*/
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--secondary-color);
+  font-family: "Philosopher", sans-serif;
+  padding-left: 2px;
+}
+h1 {
+  font-size: 52px;
+  line-height: 1;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1;
+}
+h3 {
+  font-size: 24px;
+  line-height: 1;
+}
+h4 {
+  font-size: 18px;
+}
+p,
+li {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 2px 0 2px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  /*hide the elements */
+  div.sideNav {
+    display: none;
+  }
+  img .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+}
