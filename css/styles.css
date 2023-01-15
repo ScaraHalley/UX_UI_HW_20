@@ -79,6 +79,12 @@ a {
   padding-left: 20px;
   padding-right: 20px;
 }
+.logo {
+  position: fixed;
+  scale: 70%;
+  top: 0;
+  left: 60px;
+}
 
 /*Responsive*/
 @media only screen and (max-width: 768px) {
