@@ -72,12 +72,22 @@ a {
   padding: 0 2px 0 2px;
 }
 /*Top Nav*/
-.navbar-brand {
+nav {
   color: var(--secondary-color);
-  font-family: "Philosopher", sans-serif;
-  font-size: 26px;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+  background-color: var(--primary-color-hover);
+  color: var(--secondary-color-hover);
+  border-radius: 40px;
+}
+.nav-link .active,
+.dropdown-item .active {
+  color: var(--secondary-color-active);
+  border-radius: 40px;
+  font-weight: 600;
 }
 .logo {
   position: fixed;
