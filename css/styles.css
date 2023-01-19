@@ -72,6 +72,16 @@ a {
   padding: 0 2px 0 2px;
 }
 
+/*Card Styling*/
+.card {
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+.card-group {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*Top Nav*/
 .navbar {
   color: var(--secondary-color);
